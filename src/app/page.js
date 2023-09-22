@@ -2,11 +2,13 @@ import Image from 'next/image';
 
 // components
 import ProfileSection from '@/components/ProfileSection';
+import Navbar from '@/components/Navbar/Navbar';
 
 export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col bg-[#121212]">
-			<div className="container mx-auto px-12 py-4">
+			<Navbar />
+			<div className="container mx-auto mt-28 px-12 py-4">
 				<ProfileSection />
 			</div>
 		</main>
