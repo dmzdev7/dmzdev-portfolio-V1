@@ -14,10 +14,9 @@ import MenuOverlay from './MenuOverlay';
 export const navData = [
 	{ name: 'Home', path: '/' },
 	{ name: 'About', path: '#about' },
-	{ name: 'Skills', path: '#skills' },
 	{ name: 'Services', path: '#services' },
 	{ name: 'Projects', path: '#projects' },
-	// { name: 'Contact', path: '/contact', icon: <HiEnvelope /> },
+	{ name: "Contact", path: '#contact' },
 ];
 
 const Navbar = () => {
